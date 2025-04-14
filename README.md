@@ -17,6 +17,9 @@ You need to know:
 - How to use coroutines for long-running tasks.
 - Familiarity with lazy grid
 
+## Screenshos of the app
+![Screenshot_20250414_215437](https://github.com/user-attachments/assets/976ab75b-6b2b-4601-b377-678fb10fd6dc)
+
 Getting Started
 ---------------
 
