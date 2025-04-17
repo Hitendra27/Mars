@@ -28,6 +28,11 @@ val SpaceMono = FontFamily(
     Font(R.font.spacemono_bold)
 )
 
+val Inconsolata = FontFamily(
+    Font(R.font.inconsolata_regular),
+    Font(R.font.inconsolata_bold, FontWeight.Bold)
+)
+
 // Set of Material typography styles to start with
 val Typography = Typography(
     displayLarge = TextStyle(
@@ -35,9 +40,14 @@ val Typography = Typography(
         fontWeight = FontWeight.Normal,
         fontSize = 36.sp
     ),
-    bodyLarge = TextStyle(
-        fontFamily = FontFamily.Default,
+    displayMedium = TextStyle(
+        fontFamily = Inconsolata,
         fontWeight = FontWeight.Normal,
+        fontSize = 20.sp
+    ),
+    bodyLarge = TextStyle(
+        fontFamily = Inconsolata,
+        fontWeight = FontWeight.Bold,
         fontSize = 16.sp,
         lineHeight = 24.sp,
         letterSpacing = 0.5.sp
