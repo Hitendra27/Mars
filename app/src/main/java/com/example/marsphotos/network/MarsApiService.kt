@@ -16,9 +16,3 @@ interface MarsApiService {
     @GET("/realestate")
    suspend fun getPhotos(): List<MarsPhoto>
 }
-
-object MarsApi {
-    val retrofitService : MarsApiService by lazy {
-        retrofit.create(MarsApiService::class.java)
-    }
-}
